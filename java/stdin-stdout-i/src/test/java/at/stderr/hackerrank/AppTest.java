@@ -16,8 +16,10 @@ import org.junit.Test;
 public class AppTest
 {
     private final String testInput = "1 2 3";
-    private final PrintStream origOut = System.out;
     private final String expectedOutput = "1\n2\n3\n";
+
+    private final PrintStream origOut = System.out;
+
     private final ByteArrayOutputStream testOutput = new ByteArrayOutputStream();
 
     @Before
