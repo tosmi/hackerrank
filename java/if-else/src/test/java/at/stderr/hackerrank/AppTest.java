@@ -1,4 +1,4 @@
-package at.stderr.if-else;
+package at.stderr.hackerrank;
 
 import static org.junit.Assert.assertTrue;
 
